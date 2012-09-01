@@ -14,7 +14,8 @@ Please contact me (boj AT mail.ustc.edu.cn) if you have trouble with the require
 
 Sudoku
 ------
-  clingo suduku.lp suduku\_data.lp
+
+    clingo suduku.lp suduku\_data.lp
 
 To verify sudoku result and pretty-print:
 
@@ -23,13 +24,14 @@ To verify sudoku result and pretty-print:
 
 Rectangle Covering
 ------------------
+
 one 1x1 tile, 21 1x3 tiles:
 
-   clingo rectangle.lp
+    clingo rectangle.lp
 
 two 1x2 tiles, 20 1x3 tiles:
 
-   clingo rectangle23.lp
+    clingo rectangle23.lp
 
 Ramsey
 ------
