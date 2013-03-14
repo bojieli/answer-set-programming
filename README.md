@@ -36,6 +36,8 @@ two 1x2 tiles, 20 1x3 tiles:
 Ramsey
 ------
 
+ramsey\_old.lp is a correct solution.
+
     ./ramsey.sh nodes m n | clingo
 
 For example, judge whether R(3,3)>=6:
